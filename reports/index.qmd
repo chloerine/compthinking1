@@ -1,0 +1,15 @@
+---
+title: "index"
+format: html
+editor: visual
+---
+1.  - scientific names: character\
+    - count of plants in a quadrat: integer\
+    - reaction time of birds to disturbances in seconds: numeric\
+    - rain on certain days: logical\
+2.  - finds the mean mass -> standard deviation of the bird mass -> finds the outliers\
+    - the variables mean_mass and sd_mass don't exclude the NA in bird_mass_g\
+    - to fix it you have to add na.rm to all of the varaibales that are calculating somethins using the bird_mass_g variable\
+    - bird_mass_g is a numeric,is_outlier is a logic, num_outliers is a integer\
+
+3. - you can change the 0L in the quad_counts to 6 so that it the median is 5L after filtering
